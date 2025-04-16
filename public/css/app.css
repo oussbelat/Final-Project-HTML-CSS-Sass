@@ -11929,6 +11929,7 @@ nav a {
   right: 230px;
 }
 .video .image-video {
+  padding-right: 20px;
   height: 400px;
   right: 30px;
 }
@@ -12114,21 +12115,90 @@ textarea {
   transform: scale(1.1);
 }
 
-.parent {
-  position: relative;
+.parent .d-flex {
+  gap: 16px;
 }
-.parent .p-part1 {
-  background-color: #fd7e14;
-  width: 290px;
-  height: 110px;
+.parent .image-container {
+  position: relative;
+  text-align: center;
+  width: 330px;
+  margin: 10px;
+}
+.parent .image-container img {
+  width: 100%;
+  height: 300px;
+}
+.parent .image-container .p-part1, .parent .image-container .p-part2, .parent .image-container .p-part3 {
   position: absolute;
-  top: 50%;
-  left: 200px;
+  width: 90%;
+  border-radius: 5px;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.parent .image-container .p-1 {
+  padding: 10px;
+}
+.parent .image-container i {
+  margin-right: 10px;
+}
+.parent .image-container h4 span, .parent .image-container .h4 span {
+  font-weight: bold;
 }
 
 .card-title {
-  text-transform: uppercase;
   padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.section-review {
+  background-image: url(../images/testimonials-bg.jpg);
+  height: 500px;
+  background-position: center;
+}
+
+.carousel-item .review-img {
+  width: 110px !important;
+  border-radius: 50%;
+}
+
+.info {
+  height: 450px;
+  background-color: red;
+  padding-top: 20px;
+  padding-inline: 80px !important;
+}
+.info .box-left {
+  width: 350px;
+  height: 400px;
+  background-color: blue;
+  padding-left: 30px;
+}
+
+.box {
+  padding-left: 10px;
+}
+
+.form-subject {
+  padding-bottom: 30px;
+}
+
+.form-grp {
+  display: flex;
+  padding-bottom: 19px;
+  padding-top: 20px;
+}
+
+.form-name-text {
+  display: flex;
+  padding-bottom: 19px;
+  padding-top: 20px;
+}
+.form-name-text input {
+  width: 240px;
 }
 
 /*# sourceMappingURL=app.css.map */

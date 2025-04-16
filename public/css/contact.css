@@ -1,0 +1,17 @@
+.top-rvw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.h6-rvw{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: orange;
+}
+
+.h5-rvw,.change-font{
+    font-family:"Pacifico", cursive;
+}
