@@ -11957,7 +11957,7 @@ nav a {
   padding-left: 3px;
 }
 .card1:hover {
-  background-color: #fd7e14;
+  background-color: #fd7e14 !important;
   padding-bottom: 20px;
 }
 
@@ -11970,9 +11970,9 @@ nav a {
   justify-content: center;
   padding-left: 3px;
 }
-
-.card1, .card2, .card3over:hover {
-  background-color: rgba(240, 108, 20, 0.9333333333);
+.card2:hover {
+  background-color: #fd7e14 !important;
+  padding-bottom: 20px;
 }
 
 .card3 {
@@ -12167,14 +12167,12 @@ textarea {
 
 .info {
   height: 450px;
-  background-color: red;
   padding-top: 20px;
   padding-inline: 80px !important;
 }
 .info .box-left {
   width: 350px;
   height: 400px;
-  background-color: blue;
   padding-left: 30px;
 }
 
